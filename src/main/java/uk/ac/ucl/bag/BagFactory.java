@@ -60,7 +60,7 @@ public class BagFactory<T extends Comparable>
   {
     if (bagClass.equals("ArrayBag"))
     {
-      return new ArrayBag<T>(maxSize);
+      return new MapBag<T>(maxSize);
     }
     throw new BagException
       ("Attempting to use BagFactory to create something that is not a Bag");
