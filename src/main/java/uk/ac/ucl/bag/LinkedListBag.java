@@ -56,15 +56,15 @@ public class LinkedListBag<T extends Comparable> extends AbstractBag<T>
             //node = new Element<>(value, 1, null);
             return null;
         }
-        if (node.value.compareTo(value) != 0)
+        else if (node.value.compareTo(value) != 0)
         {
-            search(node.next, value);
+           return search(node.next, value);
         }
         else
         {
             return node;
         }
-        return null;
+      //  return null;
     }
 
     public Element<T> searchPrevious(Element<T> node, T value)
