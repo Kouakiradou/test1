@@ -53,7 +53,6 @@ public class LinkedListBag<T extends Comparable> extends AbstractBag<T>
     {
         if (node == null)
         {
-            //node = new Element<>(value, 1, null);
             return null;
         }
         else if (node.value.compareTo(value) != 0)
@@ -64,7 +63,6 @@ public class LinkedListBag<T extends Comparable> extends AbstractBag<T>
         {
             return node;
         }
-      //  return null;
     }
 
     public Element<T> searchPrevious(Element<T> node, T value)

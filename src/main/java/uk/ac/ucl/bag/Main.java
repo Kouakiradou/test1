@@ -54,7 +54,6 @@ public class Main
       print(bag1);
       System.out.print("bag1 all:                    ");
       printAll(bag1);
-  //    System.out.println(bag1.size());
 
       bag2 = factory.getBag();
       bag2.add("def");
@@ -65,18 +64,15 @@ public class Main
       print(bag2);
       System.out.print("bag2 all:                    ");
       printAll(bag2);
- //     System.out.println(bag2.size());
 
       bag3 = factory.getBag();
       bag3.addWithOccurrences("xyz", 5);
       bag3.add("opq");
-//      bag3.add("opq");
       bag3.addWithOccurrences("123", 3);
       System.out.print("bag3 all unique:             ");
       print(bag3);
       System.out.print("bag3 all:                    ");
       printAll(bag3);
- //     System.out.println(bag3.size());
 
 
       System.out.print("createMergedAllOccurrences:  ");
