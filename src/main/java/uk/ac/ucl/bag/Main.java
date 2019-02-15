@@ -54,6 +54,7 @@ public class Main
       print(bag1);
       System.out.print("bag1 all:                    ");
       printAll(bag1);
+   //   System.out.println(bag1.size());
 
       bag2 = factory.getBag();
       bag2.add("def");
