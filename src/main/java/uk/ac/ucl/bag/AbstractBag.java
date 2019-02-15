@@ -7,7 +7,6 @@ package uk.ac.ucl.bag;
  * New bag objects are created using a BagFactory, which can be configured in the application
  * setup to select which bag implementation is to be used.
  */
-import java.util.Iterator;
 
 public abstract class AbstractBag<T extends Comparable> implements Bag<T>
 {
@@ -35,6 +34,34 @@ public abstract class AbstractBag<T extends Comparable> implements Bag<T>
       if (!result.contains(value)) result.add(value);
     }
     return result;
+  }
+
+  public String toString()
+  {
+    boolean first = true;
+    String str = "[";
+    for (T value : this)
+    {
+      if (!first) { str += ", "; }
+      first = false;
+      str += value;
+      str += " : ";
+      str += this.countOf(value);
+    }
+    str += "]";
+    //System.out.println(str);
+    return str;
+  }
+
+  public void removeAllCopies()
+  {
+    for (T value : this)
+    {
+      while (this.countOf(value) > 1)
+      {
+        this.remove(value);
+      }
+    }
   }
 
 }

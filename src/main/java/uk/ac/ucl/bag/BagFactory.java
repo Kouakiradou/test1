@@ -60,6 +60,14 @@ public class BagFactory<T extends Comparable>
   {
     if (bagClass.equals("ArrayBag"))
     {
+      return new ArrayBag<T>(maxSize);
+    }
+    else if (bagClass.equals("MapBag"))
+    {
+      return new MapBag<T>(maxSize);
+    }
+    else if (bagClass.equals("LinkedListBag"))
+    {
       return new LinkedListBag<T>(maxSize);
     }
     throw new BagException

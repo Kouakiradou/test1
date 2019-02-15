@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="7690a278-4155-42c3-b4ec-5fdbc857da3e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uk/ac/ucl/bag/LinkedListBag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/ac/ucl/bag/LinkedListBag.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uk/ac/ucl/bag/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/ac/ucl/bag/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uk/ac/ucl/bag/AbstractBag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/ac/ucl/bag/AbstractBag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uk/ac/ucl/bag/Bag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/ac/ucl/bag/Bag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uk/ac/ucl/bag/BagFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/ac/ucl/bag/BagFactory.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,8 +19,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/ucl/bag/AbstractBag.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+            <state relative-caret-position="215">
+              <caret line="55" column="31" lean-forward="true" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -27,7 +28,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/ucl/bag/MapBag.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="426">
+            <state relative-caret-position="387">
               <caret line="79" column="33" selection-start-line="79" selection-start-column="4" selection-end-line="79" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -47,8 +48,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/ucl/bag/ArrayBag.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1414">
-              <caret line="139" column="61" selection-start-line="139" selection-start-column="16" selection-end-line="139" selection-end-column="61" />
+            <state relative-caret-position="293">
+              <caret line="159" column="26" lean-forward="true" selection-start-line="159" selection-start-column="26" selection-end-line="159" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -59,13 +60,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/ucl/bag/LinkedListBag.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="66" column="8" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="8" />
+            <state relative-caret-position="-2241">
+              <caret line="54" column="9" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
               <folding>
-                <element signature="e#3073#3074#0" expanded="true" />
-                <element signature="e#3853#3854#0" expanded="true" />
-                <element signature="e#4421#4422#0" expanded="true" />
-                <element signature="e#5247#5248#0" expanded="true" />
+                <element signature="e#2998#2999#0" expanded="true" />
+                <element signature="e#3778#3779#0" expanded="true" />
+                <element signature="e#4346#4347#0" expanded="true" />
+                <element signature="e#5172#5173#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -74,8 +75,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/ucl/bag/Bag.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1530">
-              <caret line="102" column="20" selection-start-line="102" selection-start-column="15" selection-end-line="102" selection-end-column="20" />
+            <state relative-caret-position="279">
+              <caret line="116" column="25" lean-forward="true" selection-start-line="116" selection-start-column="25" selection-end-line="116" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -83,8 +84,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/ucl/bag/BagFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
-              <caret line="57" column="5" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
+            <state relative-caret-position="548">
+              <caret line="68" column="40" selection-start-line="68" selection-start-column="40" selection-end-line="68" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -92,8 +93,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/ucl/bag/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+            <state relative-caret-position="15">
+              <caret line="65" column="21" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -110,9 +111,9 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>ArrayBagIterator</find>
-      <find>itera</find>
       <find>ArrayBag</find>
       <find>getTail</find>
+      <find>itera</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -130,9 +131,11 @@
       <list>
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/uk/ac/ucl/bag/MapBag.java" />
+        <option value="$PROJECT_DIR$/src/main/java/uk/ac/ucl/bag/LinkedListBag.java" />
         <option value="$PROJECT_DIR$/src/main/java/uk/ac/ucl/bag/BagFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/uk/ac/ucl/bag/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/uk/ac/ucl/bag/LinkedListBag.java" />
+        <option value="$PROJECT_DIR$/src/main/java/uk/ac/ucl/bag/AbstractBag.java" />
+        <option value="$PROJECT_DIR$/src/main/java/uk/ac/ucl/bag/Bag.java" />
       </list>
     </option>
   </component>
@@ -191,7 +194,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550199513677" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550274106281" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -237,7 +240,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1549992725796</updated>
-      <workItem from="1549992727057" duration="26185000" />
+      <workItem from="1549992727057" duration="30058000" />
     </task>
     <task id="LOCAL-00001" summary="first test">
       <created>1549992760548</created>
@@ -267,11 +270,25 @@
       <option name="project" value="LOCAL" />
       <updated>1550197297601</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary=".">
+      <created>1550199395774</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1550199395774</updated>
+    </task>
+    <task id="LOCAL-00006" summary=".">
+      <created>1550199532328</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1550199532328</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26185000" />
+    <option name="totallyTimeSpent" value="30058000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="798" extended-state="0" />
@@ -282,7 +299,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.24964234" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" />
@@ -291,10 +308,10 @@
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3286119" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" />
       <window_info anchor="right" id="Theme Preview" order="0" />
@@ -335,40 +352,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/ucl/bag/AbstractBag.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/ucl/bag/BagFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        <state relative-caret-position="548">
+          <caret line="68" column="40" selection-start-line="68" selection-start-column="40" selection-end-line="68" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/ucl/bag/ArrayBag.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1414">
-          <caret line="139" column="61" selection-start-line="139" selection-start-column="16" selection-end-line="139" selection-end-column="61" />
+        <state relative-caret-position="293">
+          <caret line="159" column="26" lean-forward="true" selection-start-line="159" selection-start-column="26" selection-end-line="159" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/ucl/bag/Bag.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/ucl/bag/LinkedListBag.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="102" column="20" selection-start-line="102" selection-start-column="15" selection-end-line="102" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/ucl/bag/BagFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="57" column="5" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
+        <state relative-caret-position="-2241">
+          <caret line="54" column="9" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
+          <folding>
+            <element signature="e#2998#2999#0" expanded="true" />
+            <element signature="e#3778#3779#0" expanded="true" />
+            <element signature="e#4346#4347#0" expanded="true" />
+            <element signature="e#5172#5173#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/ucl/bag/MapBag.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
+        <state relative-caret-position="387">
           <caret line="79" column="33" selection-start-line="79" selection-start-column="4" selection-end-line="79" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -384,23 +400,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/ucl/bag/LinkedListBag.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/ucl/bag/Bag.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="66" column="8" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="8" />
-          <folding>
-            <element signature="e#3073#3074#0" expanded="true" />
-            <element signature="e#3853#3854#0" expanded="true" />
-            <element signature="e#4421#4422#0" expanded="true" />
-            <element signature="e#5247#5248#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="279">
+          <caret line="116" column="25" lean-forward="true" selection-start-line="116" selection-start-column="25" selection-end-line="116" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/ucl/bag/AbstractBag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="55" column="31" lean-forward="true" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/uk/ac/ucl/bag/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        <state relative-caret-position="15">
+          <caret line="65" column="21" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
         </state>
       </provider>
     </entry>
