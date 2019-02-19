@@ -115,4 +115,8 @@ public interface Bag<T extends Comparable> extends Iterable<T>
    */
 
   void removeAllCopies();
+
+  Bag<T> subtract(Bag<T> bag)  throws BagException;
+
+
 }

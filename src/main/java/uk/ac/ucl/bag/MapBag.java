@@ -117,4 +117,5 @@ public class MapBag<T extends Comparable> extends AbstractBag<T>
     {
         return new MapBagIterator();
     }
+
 }

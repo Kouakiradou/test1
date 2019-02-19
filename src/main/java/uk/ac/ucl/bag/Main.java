@@ -69,11 +69,12 @@ public class Main
       bag3.addWithOccurrences("xyz", 5);
       bag3.add("opq");
       bag3.addWithOccurrences("123", 3);
+    //  bag3 = new FileOperator().loadBag();
       System.out.print("bag3 all unique:             ");
       print(bag3);
       System.out.print("bag3 all:                    ");
       printAll(bag3);
-
+    //  new FileOperator().writeBag(bag3);
 
       System.out.print("createMergedAllOccurrences:  ");
       Bag<String> bag4 = bag1.createMergedAllOccurrences(bag3);

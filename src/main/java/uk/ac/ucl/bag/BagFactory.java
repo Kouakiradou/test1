@@ -27,6 +27,8 @@ public class BagFactory<T extends Comparable>
   {
   }
 
+
+
   /**
    * Set the class that the factory creates instances of.
    * @param aClass the name of the class.
