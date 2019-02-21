@@ -64,7 +64,6 @@ public class Main
       print(bag2);
       System.out.print("bag2 all:                    ");
       printAll(bag2);
-
       bag3 = factory.getBag();
       bag3.addWithOccurrences("xyz", 5);
       bag3.add("opq");
@@ -83,6 +82,7 @@ public class Main
       System.out.print("createMergedAllUnique:       ");
       Bag<String> bag5 = bag1.createMergedAllUnique(bag3);
       print(bag5);
+
     }
     catch (BagException e)
     {
