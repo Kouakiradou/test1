@@ -24,10 +24,6 @@ public class FileOperator
     public <T extends Comparable> Bag<T> loadBag() throws BagException
     {
         FileInput fin = new FileInput("Data.txt");
-      //  Bag<String> stringResult = BagFactory.getInstance().getBag();
-      //  Bag<Integer> integerResult = BagFactory.getInstance().getBag();
-     //   Bag<Long> longResult = BagFactory.getInstance().getBag();
-      //  Bag<Float> floatResult = BagFactory.getInstance().getBag();
         Bag<T> result = BagFactory.getInstance().getBag();
         String type = fin.nextLine();
         while(fin.hasNextLine())
